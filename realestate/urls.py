@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', pv.index, name='home'),
     path('pages/', include('pages.urls')),
+    path('listings/', include('listings.urls'))
 ]
